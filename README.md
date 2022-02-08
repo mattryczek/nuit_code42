@@ -1,0 +1,3 @@
+# Code42 Legal Hold API
+
+This script is designed to be run in the `test` section of Postman. After making the initial request to fetch Legal Hold data, this will keep fetching the rest of the data. To aggregate, requests' JSON bodies are forwarded to any generic JSON-accepting sink, where a monolith repository can be built and exported as one file (since there's no good way to do this in postman that I know of).
